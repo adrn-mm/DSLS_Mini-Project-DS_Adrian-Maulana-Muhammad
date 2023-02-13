@@ -13,7 +13,7 @@ Conduct modeling using various algorithms, then perform hyperparameter tuning an
 - [ ] Project Report
 
 # Usage Instruction
-1. `git clone` this repository
+1. `git clone https://github.com/adrn-mm/DSLS_Mini-Project-DS_Adrian-Maulana-Muhammad.git`
 2. `pip install -r requirements.txt`
 
 # Project Structure
@@ -21,16 +21,14 @@ Conduct modeling using various algorithms, then perform hyperparameter tuning an
 Mini Project Data Science
 ├── data
 │   ├── processed-data
-│   ├── external-data
-│   └── raw-data
+│   └── external-data
+│       └──Data Pengunjung Objek Wisata di Jawa Barat.csv
 ├── docs
-│   ├── Waze - Data Dictionary.xlsx
-│   └── Waze - Data Dictionary - Alerts, Jams, and Irregularities.xlsx
-├── images
 ├── models
 ├── reports
 ├── src
 │   ├── notebooks
+│   │   └──Analisis_Data Pengunjung Objek Wisata di Jawa Barat.ipynb
 │   └── scripts
 ├── README.md
 ├── requirements.txt
