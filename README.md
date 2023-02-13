@@ -17,15 +17,15 @@ Conduct modeling using various algorithms, then perform hyperparameter tuning an
 2. `pip install -r requirements.txt`
 
 # Project Structure
-```bash
+```
 Mini Project Data Science
 ├── data
 │   ├── processed-data
-|   ├── external-data
+│   ├── external-data
 │   └── raw-data
 ├── docs
-|   ├── Waze - Data Dictionary.xlsx
-|   └── Waze - Data Dictionary for Alerts, Jams, and Irregularities.xlsx
+│   ├── Waze - Data Dictionary.xlsx
+│   └── Waze - Data Dictionary - Alerts, Jams, and Irregularities.xlsx
 ├── images
 ├── models
 ├── reports
