@@ -82,6 +82,9 @@ df_merge["Datetime"] = pd.to_datetime(
 # drop missing values
 df_merge.dropna(inplace=True)
 
+# make column Alert Type to lowercase
+df_merge["Alert Type"] = df_merge["Alert Type"].str.title()
+
 # export dataset to interim-data for further processing at the EDA stage
 df_merge.to_csv(
     os.path.join(
