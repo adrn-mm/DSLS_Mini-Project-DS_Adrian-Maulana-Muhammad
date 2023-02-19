@@ -26,7 +26,6 @@ Mini Project DS
 ├───reports
 └───src
     ├───modules
-    │   └───__pycache__
     ├───notebooks
     └───scripts
 ```
